@@ -7,6 +7,10 @@ body.active{
     overflow:hidden;
     z-index:-1
 }
+
+.no-js h1 {
+    color: #222222;
+}
 .no-js #experience-timeline>div{
     background:#fff;
     padding:10px;
@@ -39,7 +43,7 @@ body.active{
 
 header{
     position:absolute;
-    top:0;
+    top:0;  
     left:0;
     right:0;
     text-align:center;
@@ -207,7 +211,7 @@ footer{
     height:100vh;
     min-height:500px;
     max-height:1080px;
-    background:url(../images/lead-bg.jpg);
+    background:url(../images/colombo.jpg);
     background-size:cover;
     padding:15px;
     overflow:hidden
@@ -436,7 +440,7 @@ footer{
     float:left
 }
 .project-info{
-    position:absolute;
+    position: absolute;
     top:50%;
     transform:translateY(-50%);
     margin-left:300px;
@@ -463,7 +467,8 @@ footer{
     display:none
 }
 #skills{
-    padding:50px 15px;text-align:center
+    padding:50px 15px;
+    text-align:center
 }
 #skills h2{
     color:#374054;
@@ -485,6 +490,13 @@ footer{
     cursor:default;
     font-size:1.2em
 }
+#mywork{
+    padding:50px 15px;
+    text-align:center;
+    background: #e4e4ea;
+    color: #434a4e;
+    align-content: center
+}
 #contact{
     padding:50px 15px;
     background:#3498db;
@@ -492,6 +504,17 @@ footer{
 }
 #contact h2{
     margin:0 0 15px 0;
+    color:#fff;
+    font-weight:500
+}
+#contact h1{
+    margin:0 0 15px 0;
+    color:#fff;
+    font-weight:500
+}
+.contactus{
+    margin:0 0 15px 0;
+    font-size: 20px;
     color:#fff;
     font-weight:500
 }
@@ -576,6 +599,133 @@ footer{
 .optional-section-block ul{
     padding:0 0 0 15px
 }
+footer{
+	background:#212121;
+}
+.agileinfo_footer_grid h3 {
+    font-size: 1.5em;
+    color: #fff;
+	letter-spacing: 1px;
+    position: relative;
+} 
+.agileinfo_footer_grid p {
+    margin: 0;
+    color: #aaa;
+    letter-spacing: .5px;
+    font-size: 15px;
+    line-height: 28px;
+}
+ul.w3agile_footer_grid_list li {
+    list-style-type: none;
+    color: #999;
+    line-height: 1.9em;
+    margin-bottom: 1em;
+}
+ul.w3agile_footer_grid_list li:last-child {
+    margin-bottom: 0;
+}
+ul.w3agile_footer_grid_list li a{
+	color:#f44336;
+	text-decoration:none;
+}
+ul.w3agile_footer_grid_list li a:hover{
+	color:#fff;
+}
+ul.w3agile_footer_grid_list li span {
+    display: block;
+    margin: 0.2em 0 0;
+    font-size: .85em;
+}
+ul.w3agile_footer_grid_list li span i{
+    padding-right: 1.5em;
+}
+.agileinfo_footer_grid form{
+	margin:1em 0 0;
+     position: relative;
+}
+.agileinfo_footer_grid input[type="email"]{
+	outline:none;
+	padding:10px;
+	width:100%;
+	background:#fff;
+	border:none;
+     font-size: 15px;
+	color:#212121;
+     border-radius: 35px;
+     padding: 12px 12px 12px 25px;
+     box-sizing: border-box;
+}
+.agileinfo_footer_grid input[type="submit"]{
+	outline: none;
+    padding: 12px 0;
+    width: 38%;
+    background:#17a2b8;
+    border: none;
+     font-size: 15px;
+	 letter-spacing: 1px;
+    color: #fff;
+    border-radius: 35px;
+    box-sizing: border-box;
+    position: absolute;
+    right: -1px;
+    top: 0;
+}
+.agileinfo_footer_grid input[type="submit"]:hover{
+	background:#fd5c63;
+	color:#fff;
+} 
+.agileinfo_footer_grid h2 a span {
+    color: #fd5c63;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.agileinfo_footer_grid h2 a {
+    font-size: .9em;
+    color: #fff;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+     margin-top: 2.5em;
+    display: inline-block;
+}
+ul.con_inner_text li,ul.con_inner_text li a {
+    list-style-type: none;
+    color: #aaa;
+    letter-spacing: .5px;
+    font-size: 15px;
+    line-height: 26px;
+}
+.w3agile_copy_right{
+	padding:1.5em 0;
+	background:#1b1b1b;
+	text-align:center;
+}
+.w3agile_copy_right p {
+    color: #fff;
+    letter-spacing: 1px;
+}
+.w3agile_copy_right p a{
+	text-decoration:none;
+	color:#f44336;
+}
+.w3agile_copy_right p a:hover{
+	color:#fff;
+}
+.agileinfo-social-grids.footer-w3icons ul li {
+    display: block;
+}
+.agileinfo-social-grids.footer-w3icons ul li i,ul.con_inner_text span {
+    width: 20px;
+     font-size: 13px;
+}
+.agileinfo-social-grids.footer-w3icons ul li a{
+     color: #aaa;
+    letter-spacing: .5px;
+    font-size: 15px;
+    line-height: 28px;
+}
+
+
 @media only screen and (max-width: 750px){#experience-timeline:before,#experience-timeline:after{left:23px}
 .vtimeline-date{
     width:auto;
@@ -650,12 +800,23 @@ footer{
     top:auto;
     transform:none
 }
+.project-info1{
+    position:relative;
+    color: white;
+    margin:0;
+    padding:30px 15px;
+    top:auto;
+    transform:none
+}
 footer{
     text-align:center
 }
 .social{
-    text-align:center
-    }
+    text-align:center;
+    font-size: 200px;
+    color: white;
+    font-size: medium;
+}
 }
 @media only screen and (max-width: 480px){#lead-content h1{font-size:1.5em}
 #lead-content h2{
